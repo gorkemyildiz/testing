@@ -1,0 +1,28 @@
+.ui-box{
+    padding: 0;
+}
+.ui-box ul {
+    padding: 0;
+}
+.ui-box ul li {
+    padding: 0;
+}
+.ui-list__itemmedia{
+    padding-right: 1rem;
+    width: 100%;
+}
+.ui-box ul li:last-child > .ui-list__itemmedia{
+    padding-right: 0;
+    width: 100%;
+}
+.ui-input__input{
+    min-width: 15rem;
+}
+.ui-checkbox{
+    width: 100%;
+}
+
+.container {
+    margin: 10;
+    padding: 2%;
+}

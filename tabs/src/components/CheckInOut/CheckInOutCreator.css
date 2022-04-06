@@ -1,0 +1,27 @@
+.ms-BasePicker-text{
+    background-color: rgb(243, 242, 241);
+    outline-style: none;    
+    border: none;
+}
+.ms-BasePicker-text::after{
+    border: 2px solid rgb(91, 95, 199);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+} 
+.divSegment{
+    padding-left : 1rem;
+    padding-right: 1rem; 
+    background-color: rgb(250 249 248);
+    box-shadow: none; 
+    width: 100%;
+    text-align: center;
+}
+.react-time-picker__wrapper{
+    padding: .5rem;
+    border : 1px solid rgb(91, 95, 199);
+    border-radius: .3rem;
+}
+.divInput input{
+    width: 100%; 
+}

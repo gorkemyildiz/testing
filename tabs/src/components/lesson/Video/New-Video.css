@@ -1,0 +1,81 @@
+.commandFileInput {
+    opacity: .0001;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0%;
+    z-index: -9999999;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.container {
+    padding: 2%;
+}
+
+.ui-breadcrumb {
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+    border-color: rgb(91, 95, 199);
+    margin-bottom: 1rem;
+}
+
+.ui-breadcrumb__link {
+    text-decoration: none;
+}
+
+hr {
+    background-color: #5b5fc6;
+    width: 100%;
+    height: 1px !important;
+    border: none;
+}
+
+.uploadVideoBtn {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    color: #464eb8 !important;
+    font-size: 1.2rem !important;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.uploadVideoBtn:hover {
+    background-color: #464eb8 !important;
+    color: #fff !important;
+    transition: 0.3s;
+}
+
+.modalSaveBtn {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 2rem;
+
+}
+
+.onFileChangeInput div input {
+    background-color: transparent !important;
+    border: 1px solid #f3f2f1;
+    width: 100%;
+}
+
+.upload-video-modal-container {
+    min-width: 32rem !important;
+    min-height: 30rem !important;
+}
+
+.uploadSpinner .ms-Spinner-circle{ 
+    width: 6rem !important;
+    height: 6rem !important;
+    margin-top: 14rem; 
+}
+.overlayUpload{
+    background-color : #0000004d !important;
+    z-index : 999 !important;
+}
+.inputVName div input{
+    text-align: center;
+}

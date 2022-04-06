@@ -1,0 +1,34 @@
+.ms-Viewport{
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.dropzone{
+    height: 250px;
+    background-color: darkgray;
+    z-index: 900;
+}
+
+.uploadSpinner .ms-Spinner-circle{ 
+    width: 6rem !important;
+    height: 6rem !important;
+    margin-top: 14rem; 
+}
+.overlayUpload{
+    background-color : #0000004d !important;
+    z-index : 999 !important;
+}
+
+.container-buttons{
+    padding: 2%;
+    padding-bottom: 0 !important;
+    margin-bottom: 0;
+}
+
+.buttons-stack{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}

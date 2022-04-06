@@ -1,0 +1,7 @@
+.table {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.ui-table__cell{
+    justify-content: center;
+}
